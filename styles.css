@@ -134,11 +134,6 @@ body {
     min-width: 160px;
     min-height: 160px;
 }
-
-.quo-ca {
-    display: flex;
-}
-
 .quo-con {
     display: flex;
     background-color: #E5E7EB;
@@ -159,6 +154,56 @@ body {
     font-size: 22px;
     color:#1F2937;
     font-weight: 700;
-    text-align: end;
+    padding-left: 60%;
+
+}
+.ca-con {
+    display: flex;
+    width: 100vw;
+    height: 45vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ca {
+    display: flex;
+    width: 70vw;
+    margin: 5% 12%;
+    background-color: #3882F6;
+    justify-content: space-between;
+    padding: 2% 8%;
+    font-size: 16px;
+    color:#F9FAF8;
+    font-weight: 300;
+    border-radius: 7px;
+    align-items: center;
+}
+
+.ca strong {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.ca-btn {
+    background-color: #3882F6;
+    padding: 10px 40px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    border-radius: 8px;
+    border: 1px solid #F9FAF8;
+}
+
+footer {
+    display: flex;
+    height: 12vh;
+    background-color: #1F2937;
+    font-size: 15px;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
 
 }
